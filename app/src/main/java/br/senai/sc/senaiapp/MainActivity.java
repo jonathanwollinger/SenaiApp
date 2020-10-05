@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickBtnLimpar(View v) {
         editText1.setText(" ");
         editText2.setText(" ");
+        editText1.requestFocus();
     }
 
 }
